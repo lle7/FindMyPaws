@@ -14,18 +14,29 @@
   padding: 5px 5px 5px 1000px;
   border: none;
 }
+
+.inBlock1{
+  width: 320px;
+  height: 500px;
+  vertical-align: top;
+  display: inline-block;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color: #D4EFDF  ;
+
+}
 /*Adding background*/
 .bg1{
   background-image: url("pets.jpg");
-  min-height: 400px;
+  min-height: 300px;
 }
 .bg2{
   background-image: url("handshake.jpg");
-  min-height: 400px;
+  min-height: 300px;
 }
 .bg3{
   background-image: url("petcover.jpg");
-  min-height: 400px;
+  min-height: 300px;
 }
 /*Move the background*/
 .bg1, .bg2, .bg3{
@@ -58,16 +69,24 @@
 }
 .block1{
   font-family: 'Poiret One', cursive;
-  color: white;
+  color: #AAABAB;
   background-color: #7DCEA0;
   text-align: center;
   padding: 50px 80px;
   text-align: center;
 }
-input[type= text], input[type=password]{
+input[type= text], input[type= password]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text2], input[type= password2]{
+  width: 38%;
+  padding: 12px 20px;
+  margin: 20px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
